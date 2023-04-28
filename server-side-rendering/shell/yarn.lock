@@ -1142,19 +1142,19 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@module-federation/node@0.12.2":
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/@module-federation/node/-/node-0.12.2.tgz#9abf138ef579692ffd316e0b44e7bd69bb512fd2"
-  integrity sha512-eh2hq5cx92S7S1Y9Vp/OVpbzEmWhiBIcSWaUf9kUqyjNpH5pzMgh9cX6Etp2hn63OFv2SaYvZ84h0rqrf/C7VA==
+"@module-federation/node@0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@module-federation/node/-/node-0.14.0.tgz#414cfb6393c6c14ec54b56f37a1efba67ee2e5e1"
+  integrity sha512-ry46SxNi9QMOR2Z2l0LBh1eL6fOow41AfGF54Ir7oOUaBr4N9RHdR0CTeMCLLtw4dTUO4LmSDh83/vr2AXEpRQ==
   dependencies:
-    "@module-federation/utilities" "1.4.0"
+    "@module-federation/utilities" "1.6.0"
     encoding "0.1.13"
     node-fetch "2.6.7"
 
-"@module-federation/utilities@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@module-federation/utilities/-/utilities-1.4.0.tgz#c7b8c6e08262af6377714d94557929a3df67e64e"
-  integrity sha512-J4KISJvLmFhZEgBhdntn6MWqElWU6vMC/JuQT7MdNe8Apc8qoYis0FKGp4gp8YkIPPhplkQExy2vS14+3KxoJA==
+"@module-federation/utilities@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@module-federation/utilities/-/utilities-1.6.0.tgz#582b9a8a87f3f39b6bf56eb6fa109bb23aa59990"
+  integrity sha512-WB9A18cX9dkUQCnJmOXFn4HdCAN2wcl1z4ZmI6NG31ZV0EvxIBkcdeTd++F4uV6rpVUzNmvUbOTPABN5yT6MsQ==
 
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.3":
   version "2.1.8-no-fsevents.3"
