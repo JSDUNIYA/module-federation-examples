@@ -2093,6 +2093,31 @@
     prettier "^2.3.2"
     typescript "^4"
 
+"@modern-js-app/eslint-config@2.17.1":
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/@modern-js-app/eslint-config/-/eslint-config-2.17.1.tgz#d2fa4cac08e0d5ecd8313c031cb305985ef0ee55"
+  integrity sha512-59P4ian4oLA0WEQo1fvWusIViuMmSy4D4sBz3JbHnVlWT9JOcWAl6Do0PoaUGPlSpN7/7/s6zovU2BTELebMxA==
+  dependencies:
+    "@babel/core" "^7.18.0"
+    "@babel/eslint-parser" "^7.18.0"
+    "@babel/eslint-plugin" "^7.17.7"
+    "@modern-js/babel-preset-app" "2.17.1"
+    "@typescript-eslint/eslint-plugin" "^5.17.0"
+    "@typescript-eslint/parser" "^5.17.0"
+    eslint "^8.28.0"
+    eslint-config-prettier "^8.3.0"
+    eslint-plugin-eslint-comments "^3.2.0"
+    eslint-plugin-filenames "^1.3.2"
+    eslint-plugin-import "^2.24.1"
+    eslint-plugin-markdown "^3.0.0"
+    eslint-plugin-node "^11.1.0"
+    eslint-plugin-prettier "^4.0.0"
+    eslint-plugin-promise "^6.1.1"
+    eslint-plugin-react "^7.24.0"
+    eslint-plugin-react-hooks "^4.2.0"
+    prettier "^2.3.2"
+    typescript "^4"
+
 "@modern-js-reduck/plugin-auto-actions@1.1.9", "@modern-js-reduck/plugin-auto-actions@^1.1.4":
   version "1.1.9"
   resolved "https://registry.npmjs.org/@modern-js-reduck/plugin-auto-actions/-/plugin-auto-actions-1.1.9.tgz#f4f4eba6d237411a90572d76cbe3ea554c53d44c"
@@ -2199,6 +2224,18 @@
     "@modern-js/utils" "2.15.0"
     core-js "^3.27.0"
 
+"@modern-js/babel-preset-app@2.17.1":
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/@modern-js/babel-preset-app/-/babel-preset-app-2.17.1.tgz#666f3662d445717ceea43755e9a3395f926ae278"
+  integrity sha512-di7lmW4bVPENM3PBzrKTU7cAJHA1RtCx5tlE24Hv/dsyEv/dwaId9CTjm8k0kwpWa0Eu4119BR1UILWlOGOIQA==
+  dependencies:
+    "@babel/core" "^7.18.0"
+    "@babel/runtime" "^7.18.0"
+    "@babel/types" "^7.18.0"
+    "@modern-js/babel-preset-base" "2.17.1"
+    "@modern-js/utils" "2.17.1"
+    core-js "~3.30.0"
+
 "@modern-js/babel-preset-base@2.15.0":
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/@modern-js/babel-preset-base/-/babel-preset-base-2.15.0.tgz#921c96a94a6cb07a6cc837817fcbc151469b5485"
@@ -2212,6 +2249,22 @@
     "@babel/preset-typescript" "^7.17.12"
     "@babel/runtime" "^7.18.0"
     "@modern-js/utils" "2.15.0"
+    "@types/babel__core" "^7.1.16"
+    lodash "^4.17.21"
+
+"@modern-js/babel-preset-base@2.17.1":
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/@modern-js/babel-preset-base/-/babel-preset-base-2.17.1.tgz#1b5ffe4ae9bc5c23dfdcfc5b851d63651985997b"
+  integrity sha512-44MHpcCXPNxKhpEm0EtileRiKybOUUD2XUiV+msGe1L0HvsUo+q1MctExaAHUT89z1qn4tLBw9XQrmtaJX8isg==
+  dependencies:
+    "@babel/core" "^7.18.0"
+    "@babel/plugin-transform-runtime" "^7.18.0"
+    "@babel/plugin-transform-typescript" "^7.18.0"
+    "@babel/preset-env" "^7.18.0"
+    "@babel/preset-react" "^7.17.12"
+    "@babel/preset-typescript" "^7.17.12"
+    "@babel/runtime" "^7.18.0"
+    "@modern-js/utils" "2.17.1"
     "@types/babel__core" "^7.1.16"
     lodash "^4.17.21"
 
@@ -2559,6 +2612,16 @@
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/@modern-js/utils/-/utils-2.15.0.tgz#97b009ceb9887aa705aed6866ee678b9d9e5ec8d"
   integrity sha512-FJyElgfb/pajjcgBTjrlcGlrr+U2OVVfSEDIxB+OJrH9ioA5E+bk1hypi4DDpJXAqLaY/YrVLUdQUPL5uXppsw==
+  dependencies:
+    "@remix-run/router" "^1.3.2"
+    caniuse-lite "^1.0.30001451"
+    lodash "^4.17.21"
+    serialize-javascript "^6.0.0"
+
+"@modern-js/utils@2.17.1":
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/@modern-js/utils/-/utils-2.17.1.tgz#427dd8ff68c184f8569b04bd130c8f262090b7ec"
+  integrity sha512-ai1beOZ9aeDIgc/pDEZ2oJrgDb4/GyJCVLzkBEvOir58TFTuogcMaZjmbhp5Eqz6z7AcpyyhGmjviBoESreVmg==
   dependencies:
     "@remix-run/router" "^1.3.2"
     caniuse-lite "^1.0.30001451"
@@ -4821,7 +4884,7 @@ core-js-pure@^3.23.3:
   resolved "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.30.1.tgz#7d93dc89e7d47b8ef05d7e79f507b0e99ea77eec"
   integrity sha512-nXBEVpmUnNRhz83cHd9JRQC52cTMcuXAmR56+9dSMpRdpeA4I1PX6yjmhd71Eyc/wXNsdBdUDIj1QTIeZpU5Tg==
 
-core-js@^3.27.0:
+core-js@^3.27.0, core-js@~3.30.0:
   version "3.30.1"
   resolved "https://registry.npmjs.org/core-js/-/core-js-3.30.1.tgz#fc9c5adcc541d8e9fa3e381179433cbf795628ba"
   integrity sha512-ZNS5nbiSwDTq4hFosEDqm65izl2CWmLz0hARJMyNQBgkUZMIF51cQiMvIQKA6hvuaeWxQDP3hEedM1JZIgTldQ==
