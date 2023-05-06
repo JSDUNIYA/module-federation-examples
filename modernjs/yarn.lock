@@ -2526,6 +2526,11 @@
   resolved "https://registry.yarnpkg.com/@modern-js/tsconfig/-/tsconfig-2.15.0.tgz#9d03b7b30e29db85e7cbb0553daba2d64845a0d1"
   integrity sha512-HMlSjcWhzmvMfiC0WYGWVM6Vu/1xBKvmJG6O+fiJ2xJz6tJ4EaGliIhwt7CdomA+pnQ+W7GNLTlGb56HqbvUrg==
 
+"@modern-js/tsconfig@2.17.1":
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/@modern-js/tsconfig/-/tsconfig-2.17.1.tgz#04e3f262bba59c0dec413f3aabfd1528f5b5f236"
+  integrity sha512-uPW+xzYbcriIbv4a5Em5P6MwbSXySi+fs9kY9pvw5TXjmrYKJOM4gsakuxyeT5t9SCVaPUw5ZgMqf9mpmI+8CA==
+
 "@modern-js/types@2.13.4":
   version "2.13.4"
   resolved "https://registry.npmjs.org/@modern-js/types/-/types-2.13.4.tgz#97d0b4a12850f39162db504a7f8005a6ed58a4ce"
